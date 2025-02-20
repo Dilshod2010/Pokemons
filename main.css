@@ -1,0 +1,110 @@
+body{
+   
+background: rgb(30, 30, 30);
+}
+.input{
+    width: 190px ;
+    height: 30px ;
+    background-color: white;
+    border-radius: 7px;
+}
+.btn{
+    width: 140px ;
+    height: 30px ;
+    background-color: green;
+    color: white;
+    border-radius: 7px;
+}
+.btn:hover{
+    transition: 0.5s ease-in-out;
+    background-color: black;
+    color: white;
+    border: 3px solid green;
+
+}
+.form{
+    text-align: center;
+}
+.span{
+    color: white;
+    background-color: red;
+}
+/* .function--list{
+
+} */
+ .function--link
+ {
+    background-color: #C4E4FF;
+    color: black;
+ }
+ .pokemon--list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+    padding: 20px;
+    list-style: none;
+}
+.pokemon--list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+    padding: 20px;
+    list-style: none;
+}
+
+.function--list {
+    background-color: yellow; 
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); 
+    text-align: center;
+}
+
+.function--list img {
+    width: 120px; 
+    display: block;
+    margin: 10px auto;
+}
+
+.function--list h2 {
+    margin: 10px 0;
+    color: black; 
+}
+
+.function--list .span {
+    display: block;
+    font-weight: bold;
+    color: red;
+}
+.function--list {
+    background-color: yellow; 
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); 
+    text-align: center;
+    position: relative;
+}
+
+.function--list img {
+    width: 120px; 
+    display: block;
+    margin: 10px auto;
+}
+
+.function--list h2 {
+    margin: 10px 0;
+    color: black; 
+}
+
+
+.function--list .span {
+    display: inline-block;
+    font-weight: bold;
+    color: white;
+    background-color: red;
+    padding: 5px 10px;
+    border-radius: 5px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
